@@ -1,24 +1,6 @@
 # Agent Instruction Source Corpus
 
-这个文件夹用于整理 `AGENTS.md` 和 `CLAUDE.md` 相关的官方/准官方/权威来源，后续可以直接作为 GitHub 仓库上传。
-
-## 研究用途
-
-我们的论文逻辑是：
-
-1. 官方文档和官方博客说明 `AGENTS.md` / `CLAUDE.md` 的设计语义、加载规则和推荐实践。
-2. 推荐实践本身不是 defect。没有遵守 best practice 只能作为 motivation，不能直接判定为坏。
-3. 真正的 defect 需要更强证据，例如：
-   - instruction claim 与仓库事实不一致；
-   - 与工具官方加载/优先级/路径语义冲突；
-   - GitHub discussion / issue / PR 中出现真实负面现象；
-   - 可以通过 repo facts 或执行证据验证。
-
-## 当前完成内容
-
-- 已收集 AGENTS.md 官方网站中列出的支持工具的官方文档、官方博客、changelog、工程博客或产品团队文章。
-- 已补充 GitHub、Hugging Face、OWASP、Meta、Hacker News、安全公司博客等常见权威/社区来源。
-- 已完成第一轮筛选：判断来源是否明确包含 `AGENTS.md` / `agents.md` / `CLAUDE.md`，并且是否包含具体好/坏实践讨论。
+用于整理 `AGENTS.md` 和 `CLAUDE.md` 相关的官方/权威来源。
 
 ## 文件说明
 
