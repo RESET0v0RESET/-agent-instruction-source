@@ -1,6 +1,6 @@
 # First-Round Screening Summary
 
-This file summarizes the first-layer screen. The detailed registry is in `source_registry.csv`.
+This file summarizes the first-layer screen for the manually curated seed registry. The full paper-facing candidate pool is `candidate_sources_440.csv`; this seed summary should be used as a starting point for manual screening, not as the final corpus count.
 
 ## PASS
 
@@ -107,4 +107,3 @@ Prioritize sources in this order:
 2. S006, S013, S032, S037, S048, S049: official or product-team practice guidance.
 3. S068, S066, S073, S074, S075: secondary ecosystem/security/community evidence.
 4. S034, S059, S060, S062: unsupported or underverified supporter tools.
-

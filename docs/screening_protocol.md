@@ -2,6 +2,8 @@
 
 ## First-Round Screening
 
+Input corpus: 440 source-level candidate URLs related to `AGENTS.md`, `agents.md`, or `CLAUDE.md`.
+
 The first-round screening is mechanical and source-level. Each source is labeled with:
 
 - `PASS`: contains `AGENTS.md`, `agents.md`, or `CLAUDE.md` and discusses a concrete practice, risk, loading rule, scope rule, precedence rule, context-size issue, or maintenance concern.
@@ -48,4 +50,3 @@ Manual labels:
 ## Key Discipline
 
 Do not convert best practices into defect labels by themselves. For example, a source saying "keep AGENTS.md concise" motivates D8 Context Bloat, but the defect rule should still rely on concrete thresholds, tool context behavior, or observed failures.
-

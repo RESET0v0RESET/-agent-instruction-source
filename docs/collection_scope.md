@@ -6,6 +6,8 @@ We collect sources about repository-level instruction files used by coding agent
 
 The paper should not claim that every recommended practice is a defect rule. Recommended practices are background evidence. Defects require evidence that a file can mislead an agent, contradict repository facts, violate tool loading semantics, create security risk, or appear in real developer-reported failures.
 
+The paper-facing corpus contains 440 source-level candidate URLs. Hacker News is included as a community source channel, but individual Hacker News comments are not counted as separate paper sources.
+
 ## Primary Official Sources
 
 The strongest sources are:
@@ -59,4 +61,3 @@ Exclude or mark as background-only:
 - Pure product marketing pages that only say a tool supports agents.
 - Repository files that are only examples, unless they are from official product repositories and show concrete practices.
 - Blog posts that discuss prompt engineering generally but not repository-level instruction files.
-

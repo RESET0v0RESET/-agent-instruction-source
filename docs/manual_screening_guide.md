@@ -1,6 +1,6 @@
 # Manual Screening Guide
 
-Use `data/source_registry.csv` as the source of truth.
+Use `data/candidate_sources_440.csv` as the source of truth for the paper-facing corpus. `data/source_registry.csv` is the manually curated seed table and should not be treated as the full corpus.
 
 ## Recommended Workflow
 
@@ -39,4 +39,3 @@ linked_defects:
 quote_or_paraphrase:
 paper_location:
 ```
-

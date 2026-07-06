@@ -2,6 +2,8 @@
 
 Search date: 2026-07-06.
 
+Main paper-facing count: 440 source-level candidate URLs. This count includes Hacker News as a normalized community source channel rather than counting every Hacker News comment/story separately.
+
 ## Core Queries
 
 - `site:developers.openai.com/codex AGENTS.md`
@@ -40,6 +42,12 @@ Search date: 2026-07-06.
 - `"AGENTS.md" "Hacker News"`
 - `"CLAUDE.md" "Hacker News"`
 
+## Retrieval Method
+
+For non-Hacker-News sites, collection used official sitemaps, known documentation roots, official blog/changelog pages, and manually seeded official URLs. Pages were filtered using tool- and documentation-related path terms, then searched for exact hits of `AGENTS.md`, `agents.md`, or `CLAUDE.md`.
+
+For Hacker News, keyword search was used only to identify community discussions. These hits are treated as qualitative support and are not expanded into thousands of counted paper sources.
+
 ## Known Gaps
 
 - Cursor: official AGENTS.md support is visible through AGENTS.md ecosystem listing and forum/changelog evidence, but a direct Cursor docs page needs further confirmation.
@@ -47,4 +55,3 @@ Search date: 2026-07-06.
 - goose: listed as AGENTS.md supporter, but a direct official AGENTS.md loading page was not confirmed in this pass.
 - Semgrep: useful as security/enforcement context, but direct AGENTS.md loading semantics were not found.
 - Meta Wearables: official page exists but may require login; search snippets and official GitHub repositories provide supporting evidence.
-
